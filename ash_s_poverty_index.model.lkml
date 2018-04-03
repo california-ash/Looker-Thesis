@@ -14,4 +14,7 @@ datagroup: ash_s_poverty_index_default_datagroup {
 
 persist_with: ash_s_poverty_index_default_datagroup
 
+# STRUCTURAL PARAMETERS
 explore: poverty_median_income {}
+
+# VISUALIZATION AND FORMATTING PARAMETERS
