@@ -11,4 +11,7 @@ datagroup: ash_s_poverty_index_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+
 persist_with: ash_s_poverty_index_default_datagroup
+
+explore: poverty_median_income {}
