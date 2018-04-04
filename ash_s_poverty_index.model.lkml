@@ -17,3 +17,4 @@ persist_with: ash_s_poverty_index_default_datagroup
 # STRUCTURAL PARAMETERS
 explore: poverty_median_income {}
 explore: estimated_household_income {}
+explore: zip_fips_mapping_county {}
