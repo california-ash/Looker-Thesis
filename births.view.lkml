@@ -1,4 +1,4 @@
-view: sql_runner_query {
+view: births {
   derived_table: {
     sql: SELECT * FROM `lookerdata.baby_plus_company.births` LIMIT 10
       ;;
