@@ -18,3 +18,4 @@ persist_with: ash_s_poverty_index_default_datagroup
 explore: poverty_median_income {}
 explore: estimated_household_income {}
 explore: zip_fips_mapping_county {}
+explore: medicare_provider_data_poverty_med_income {}
