@@ -1,4 +1,4 @@
-view: zip_fips_mapping_county {
+view: zipcode_fips_mapping_county_overlap {
   derived_table: {
     sql: SELECT * FROM `lookerdata.zipcode_fips_mapping.county_overlap` LIMIT 10
       ;;

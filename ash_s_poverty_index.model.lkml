@@ -14,9 +14,14 @@ datagroup: ash_s_poverty_index_default_datagroup {
 
 persist_with: ash_s_poverty_index_default_datagroup
 
-#
+# looker_scratch.LR_NEG5WQVEU83LOQHIMQ23_poverty_median_income
 explore: poverty_median_income {}
-explore: estimated_household_income {}
-explore: zip_fips_mapping_county {}
+
+# lookerdata.zipcode_fips_mapping.enterprise
+explore: zip_fips_mapping_enterprise {}
+
+# lookerdata.zipcode_fips_mapping.county_overlap
+explore: zipcode_fips_mapping_county_overlap {}
+
+# lookerdata.medicare_provider_data.poverty_med_income
 explore: medicare_provider_data_poverty_med_income {}
-explore: births {}
