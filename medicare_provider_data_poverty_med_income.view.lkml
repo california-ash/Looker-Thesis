@@ -1,6 +1,6 @@
 view: medicare_provider_data_poverty_med_income {
   derived_table: {
-    sql: SELECT * FROM `lookerdata.medicare_provider_data.poverty_med_income` LIMIT 10
+    sql: SELECT * FROM `lookerdata.medicare_provider_data.poverty_med_income`
       ;;
   }
 

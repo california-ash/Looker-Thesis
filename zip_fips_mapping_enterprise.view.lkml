@@ -1,6 +1,6 @@
 view: zip_fips_mapping_enterprise {
   derived_table: {
-    sql: SELECT * FROM `lookerdata.zipcode_fips_mapping.enterprise` LIMIT 10
+    sql: SELECT * FROM `lookerdata.zipcode_fips_mapping.enterprise`
       ;;
   }
 

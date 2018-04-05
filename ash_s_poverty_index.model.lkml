@@ -14,8 +14,7 @@ datagroup: ash_s_poverty_index_default_datagroup {
 
 persist_with: ash_s_poverty_index_default_datagroup
 
-# looker_scratch.LR_NEG5WQVEU83LOQHIMQ23_poverty_median_income
-explore: poverty_median_income {}
+
 
 # lookerdata.zipcode_fips_mapping.enterprise
 explore: zip_fips_mapping_enterprise {}
