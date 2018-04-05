@@ -6,8 +6,14 @@ view: zip_fips_mapping_enterprise {
 
   measure: count {
     type: count
-    label: "Count of County"
+    label: "county and zip"
     drill_fields: [detail*]
+  }
+
+  dimension: primary_key {
+    primary_key: yes
+    hidden: yes
+    sql: CONCAT(${TABLE}.Zip, ${TABLE}.COUNTY_NAME) ;;
   }
 
   dimension: zip {
