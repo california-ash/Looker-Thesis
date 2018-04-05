@@ -13,7 +13,7 @@ view: zip_fips_mapping_enterprise {
   dimension: primary_key {
     primary_key: yes
     hidden: yes
-    sql: CONCAT(${TABLE}.Zip, ${TABLE}.COUNTY_NAME) ;;
+    sql: CONCAT(${TABLE}.Zip, ${TABLE}.COUNTY) ;;
   }
 
   dimension: zip {
