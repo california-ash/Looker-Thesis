@@ -10,9 +10,15 @@ view: zipcode_fips_mapping_county_overlap {
     drill_fields: [detail*]
   }
 
+  dimension: primary_key {
+    primary_key: yes
+    sql: CONCAT(${TABLE}.Zip, ${TABLE}.COUNTY_NAME) ;;
+  }
+
   dimension: zip {
     type: string
-    sql: ${TABLE}.ZIP ;;
+    sql: ${TABLE}.ZIP
+    ;;
   }
 
   dimension: state_name {
