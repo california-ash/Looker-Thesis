@@ -47,6 +47,7 @@ view: zip_fips_mapping_enterprise {
 
   dimension: county {
     type: string
+    label: "county name"
     sql: ${TABLE}.COUNTY ;;
   }
 
