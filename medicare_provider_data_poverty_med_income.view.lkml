@@ -6,6 +6,7 @@ view: medicare_provider_data_poverty_med_income {
 
   measure: count {
     type: count
+    label: "count of counties"
     drill_fields: [detail*]
   }
 
