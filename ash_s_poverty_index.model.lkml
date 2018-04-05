@@ -13,8 +13,6 @@ datagroup: ash_s_poverty_index_default_datagroup {
 
 persist_with: ash_s_poverty_index_default_datagroup
 
-# lookerdata.zipcode_fips_mapping.enterprise
-explore: zip_fips_mapping_enterprise {}
 
 # lookerdata.zipcode_fips_mapping.county_overlap
 explore: zipcode_fips_mapping_county_overlap {

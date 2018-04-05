@@ -6,6 +6,7 @@ view: zipcode_fips_mapping_county_overlap {
 
   measure: count {
     type: count
+    label: "by county"
     drill_fields: [detail*]
   }
 
