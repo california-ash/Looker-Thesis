@@ -6,6 +6,7 @@ view: zip_fips_mapping_enterprise {
 
   measure: count {
     type: count
+    label: "Count of County"
     drill_fields: [detail*]
   }
 
