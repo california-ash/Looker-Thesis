@@ -12,7 +12,7 @@ view: zipcode_fips_mapping_county_overlap {
 
   dimension: primary_key {
     primary_key: yes
-    view_label: "hidden"
+    hidden: yes
     sql: CONCAT(${TABLE}.Zip, ${TABLE}.COUNTY_NAME) ;;
   }
 
