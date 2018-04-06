@@ -12,7 +12,7 @@ view: zip_fips_mapping_enterprise {
 
   measure: avg_percent_population_in_poverty {
     type: average
-    sql: ${TABLE}AVG.PERCENT_POPULATION_IN_POVERTY ;;
+    sql: ${TABLE}.AVG_PERCENT_POPULATION_IN_POVERTY ;;
     value_format_name: percent_0
   }
 
