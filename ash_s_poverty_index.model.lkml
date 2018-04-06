@@ -25,3 +25,6 @@ explore: zipcode_fips_mapping_county_overlap {
 
 # lookerdata.medicare_provider_data.poverty_med_income
 explore: medicare_provider_data_poverty_med_income {}
+
+# IRS 2015 by Zip
+explore: irs2015 {}
