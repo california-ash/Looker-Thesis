@@ -10,8 +10,8 @@ view: zip_fips_mapping_enterprise {
     drill_fields: [detail*]
   }
 
-  measure: avg_percent_population_in_poverty {
-    type: average
+  measure: median_percent_population_in_poverty {
+    type: median
     sql: ${percent_population_in_poverty};;
     value_format: "0\%"
   }
