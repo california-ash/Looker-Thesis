@@ -10,6 +10,12 @@ view: zip_fips_mapping_enterprise {
     drill_fields: [detail*]
   }
 
+  measure: avg_percent_population_in_poverty {
+    type: average
+    sql: ${TABLE}.PERCENT_POPULATION_IN_POVERTY ;;
+    value_format_name: percent_0
+  }
+
   dimension: primary_key {
     primary_key: yes
     hidden: yes
@@ -368,6 +374,7 @@ view: zip_fips_mapping_enterprise {
   }
 
   dimension: total_male_population {
+
     type: number
     sql: ${TABLE}.TOTAL_MALE_POPULATION ;;
   }
