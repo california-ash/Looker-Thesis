@@ -16,6 +16,12 @@ view: zip_fips_mapping_enterprise {
     value_format: "0\%"
   }
 
+  measure: median_of_gross_rent {
+    type: median
+    sql: ${median_gross_rent};;
+    value_format: "$0"
+  }
+
   dimension: primary_key {
     primary_key: yes
     hidden: yes
