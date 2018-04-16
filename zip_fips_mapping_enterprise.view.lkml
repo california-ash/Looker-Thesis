@@ -22,6 +22,18 @@ view: zip_fips_mapping_enterprise {
     value_format: "$0"
   }
 
+  measure: median_earnings_last_year{
+    type: median
+    sql: ${median_earnings_past_year};;
+    value_format: "$0"
+  }
+
+  measure: median_of_home_values{
+    type: median
+    sql: ${median_home_value};;
+    value_format: "$0"
+  }
+
   dimension: primary_key {
     primary_key: yes
     hidden: yes
