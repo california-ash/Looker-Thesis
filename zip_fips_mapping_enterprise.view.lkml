@@ -34,6 +34,12 @@ view: zip_fips_mapping_enterprise {
     value_format: "$0"
   }
 
+  measure: median_population_count_by_county{
+    label: "median_population_by_county"
+    type: median
+    sql: ${population_count};;
+  }
+
   dimension: primary_key {
     primary_key: yes
     hidden: yes
